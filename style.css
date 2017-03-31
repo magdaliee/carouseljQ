@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+#carousel {
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 0;
+	border: 2px solid black;
+	overflow: hidden;
+}
+
+.gallery {
+	width: 2500px;
+	height: 400px;
+}
+
+.img {
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 0;
+	display: inline-block;
+	list-style-type: none;
+}
+
+.img1 {
+	background-image: url("https://images.pexels.com/photos/37029/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-size: cover;
+}
+
+.img2 {
+	background-image: url("https://images.pexels.com/photos/39317/chihuahua-dog-puppy-cute-39317.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-size: cover;
+}
+
+.img3 {
+	background-image: url("https://images.pexels.com/photos/134392/pexels-photo-134392.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-size: cover;
+}
+
+.img4 {
+	background-image: url("https://images.pexels.com/photos/33102/bulldog-puppy-dog-pet.jpg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-size: cover;
+}
+
+.img5 {
+	background-image: url("https://images.pexels.com/photos/158682/snow-dog-de-bordeaux-158682.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-size: cover;
+}
