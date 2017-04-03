@@ -15,6 +15,7 @@
 .gallery {
 	width: 2500px;
 	height: 400px;
+	padding-left: 0;
 }
 
 .img {
@@ -54,4 +55,21 @@
 	background-image: url("https://images.pexels.com/photos/158682/snow-dog-de-bordeaux-158682.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
 	background-position: center;
 	background-size: cover;
+}
+
+#buttons {
+	text-align: center;
+}
+
+.rightarrow, .leftarrow {
+	display: inline-block;
+}
+
+.fa.fa-chevron-right:hover, .fa.fa-chevron-left:hover {
+	transform: scale(1.1);
+	transition: .3s;
+}
+
+.fa.fa-chevron-right, .fa.fa-chevron-left {
+	margin: 10px;
 }
