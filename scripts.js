@@ -1,6 +1,6 @@
 $(function(){
 	var carouselList = $("#carousel ul");
-	setInterval(changeSlideNext, 3000);
+	var myVar = setInterval(changeSlideNext, 3000);
 	function changeSlideNext() {
 		carouselList.animate({'marginLeft': -500}, 1000, moveFirstSlide);
 	};
@@ -24,13 +24,13 @@ $(function(){
 
 	var nextSlide = $("#right");
 	nextSlide.click(function () {
-		clearInterval(changeSlideNext);
+		clearInterval(myVar);
 		changeSlideNext();
 	});
 
 	var prevSlide = $("#left");
 	prevSlide.click(function () {
-		clearInterval(changeSlideNext);
+		clearInterval(myVar);
 		changeSlidePrev();
 });
 });
